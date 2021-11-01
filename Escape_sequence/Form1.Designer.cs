@@ -36,30 +36,30 @@ namespace Escape_sequence
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tboxIs1 = new System.Windows.Forms.TextBox();
+            this.tboxIs2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.dtPicker = new System.Windows.Forms.DateTimePicker();
+            this.num1 = new System.Windows.Forms.NumericUpDown();
+            this.num2 = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.tboxMono = new System.Windows.Forms.TextBox();
+            this.lboxStringFormat = new System.Windows.Forms.ListBox();
+            this.lboxStringinterpolation = new System.Windows.Forms.ListBox();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.tboxEscape = new System.Windows.Forms.TextBox();
+            this.tboxQuery = new System.Windows.Forms.TextBox();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.num1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -119,25 +119,25 @@ namespace Escape_sequence
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(187, 270);
+            this.label7.Location = new System.Drawing.Point(266, 270);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(121, 15);
             this.label7.TabIndex = 6;
             this.label7.Text = "- 문자열 보간($)";
             // 
-            // textBox1
+            // tboxIs1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 25);
-            this.textBox1.TabIndex = 7;
+            this.tboxIs1.Location = new System.Drawing.Point(15, 30);
+            this.tboxIs1.Name = "tboxIs1";
+            this.tboxIs1.Size = new System.Drawing.Size(100, 25);
+            this.tboxIs1.TabIndex = 7;
             // 
-            // textBox2
+            // tboxIs2
             // 
-            this.textBox2.Location = new System.Drawing.Point(140, 31);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 25);
-            this.textBox2.TabIndex = 8;
+            this.tboxIs2.Location = new System.Drawing.Point(140, 31);
+            this.tboxIs2.Name = "tboxIs2";
+            this.tboxIs2.Size = new System.Drawing.Size(157, 25);
+            this.tboxIs2.TabIndex = 8;
             // 
             // label8
             // 
@@ -148,26 +148,26 @@ namespace Escape_sequence
             this.label8.TabIndex = 9;
             this.label8.Text = "is";
             // 
-            // dateTimePicker1
+            // dtPicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(15, 87);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(227, 25);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dtPicker.Location = new System.Drawing.Point(15, 87);
+            this.dtPicker.Name = "dtPicker";
+            this.dtPicker.Size = new System.Drawing.Size(227, 25);
+            this.dtPicker.TabIndex = 10;
             // 
-            // numericUpDown1
+            // num1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(15, 140);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(65, 25);
-            this.numericUpDown1.TabIndex = 11;
+            this.num1.Location = new System.Drawing.Point(15, 140);
+            this.num1.Name = "num1";
+            this.num1.Size = new System.Drawing.Size(65, 25);
+            this.num1.TabIndex = 11;
             // 
-            // numericUpDown2
+            // num2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(111, 140);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(65, 25);
-            this.numericUpDown2.TabIndex = 12;
+            this.num2.Location = new System.Drawing.Point(111, 140);
+            this.num2.Name = "num2";
+            this.num2.Size = new System.Drawing.Size(65, 25);
+            this.num2.TabIndex = 12;
             // 
             // label9
             // 
@@ -187,80 +187,85 @@ namespace Escape_sequence
             this.label10.TabIndex = 14;
             this.label10.Text = "중 더 큰 수는?";
             // 
-            // textBox3
+            // tboxMono
             // 
-            this.textBox3.Location = new System.Drawing.Point(123, 222);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 25);
-            this.textBox3.TabIndex = 15;
+            this.tboxMono.Location = new System.Drawing.Point(123, 222);
+            this.tboxMono.Name = "tboxMono";
+            this.tboxMono.Size = new System.Drawing.Size(157, 25);
+            this.tboxMono.TabIndex = 15;
             // 
-            // listBox1
+            // lboxStringFormat
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(13, 289);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(163, 154);
-            this.listBox1.TabIndex = 16;
+            this.lboxStringFormat.FormattingEnabled = true;
+            this.lboxStringFormat.ItemHeight = 15;
+            this.lboxStringFormat.Location = new System.Drawing.Point(13, 289);
+            this.lboxStringFormat.Name = "lboxStringFormat";
+            this.lboxStringFormat.Size = new System.Drawing.Size(250, 154);
+            this.lboxStringFormat.TabIndex = 16;
             // 
-            // listBox2
+            // lboxStringinterpolation
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 15;
-            this.listBox2.Location = new System.Drawing.Point(189, 289);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(163, 154);
-            this.listBox2.TabIndex = 17;
+            this.lboxStringinterpolation.FormattingEnabled = true;
+            this.lboxStringinterpolation.ItemHeight = 15;
+            this.lboxStringinterpolation.Location = new System.Drawing.Point(269, 288);
+            this.lboxStringinterpolation.Name = "lboxStringinterpolation";
+            this.lboxStringinterpolation.Size = new System.Drawing.Size(249, 154);
+            this.lboxStringinterpolation.TabIndex = 17;
             // 
-            // button1
+            // btn1
             // 
-            this.button1.Location = new System.Drawing.Point(303, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 29);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "변환";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn1.Location = new System.Drawing.Point(303, 29);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(68, 29);
+            this.btn1.TabIndex = 18;
+            this.btn1.Text = "변환";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // button2
+            // btn2
             // 
-            this.button2.Location = new System.Drawing.Point(303, 83);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 29);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "변환";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn2.Location = new System.Drawing.Point(303, 83);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(68, 29);
+            this.btn2.TabIndex = 19;
+            this.btn2.Text = "변환";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // button3
+            // btn3
             // 
-            this.button3.Location = new System.Drawing.Point(303, 137);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(68, 29);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "변환";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn3.Location = new System.Drawing.Point(303, 137);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(68, 29);
+            this.btn3.TabIndex = 20;
+            this.btn3.Text = "변환";
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
-            // button4
+            // btn4
             // 
-            this.button4.Location = new System.Drawing.Point(303, 180);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(68, 29);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "변환";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn4.Location = new System.Drawing.Point(303, 180);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(68, 29);
+            this.btn4.TabIndex = 21;
+            this.btn4.Text = "변환";
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
-            // button5
+            // btn5
             // 
-            this.button5.Location = new System.Drawing.Point(303, 220);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(68, 29);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "변환";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn5.Location = new System.Drawing.Point(303, 220);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(68, 29);
+            this.btn5.TabIndex = 22;
+            this.btn5.Text = "변환";
+            this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(398, 13);
+            this.label11.Location = new System.Drawing.Point(533, 13);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(175, 15);
             this.label11.TabIndex = 23;
@@ -269,73 +274,73 @@ namespace Escape_sequence
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(398, 222);
+            this.label12.Location = new System.Drawing.Point(533, 220);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(219, 15);
             this.label12.TabIndex = 24;
             this.label12.Text = "7. Query 표현 식($@함께 사용)";
             // 
-            // textBox4
+            // tboxEscape
             // 
-            this.textBox4.Location = new System.Drawing.Point(401, 39);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(298, 168);
-            this.textBox4.TabIndex = 25;
+            this.tboxEscape.Location = new System.Drawing.Point(536, 40);
+            this.tboxEscape.Multiline = true;
+            this.tboxEscape.Name = "tboxEscape";
+            this.tboxEscape.Size = new System.Drawing.Size(290, 168);
+            this.tboxEscape.TabIndex = 25;
             // 
-            // textBox5
+            // tboxQuery
             // 
-            this.textBox5.Location = new System.Drawing.Point(401, 246);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(298, 199);
-            this.textBox5.TabIndex = 26;
+            this.tboxQuery.Location = new System.Drawing.Point(536, 248);
+            this.tboxQuery.Multiline = true;
+            this.tboxQuery.Name = "tboxQuery";
+            this.tboxQuery.Size = new System.Drawing.Size(290, 199);
+            this.tboxQuery.TabIndex = 26;
             // 
-            // button6
+            // btn6
             // 
-            this.button6.Location = new System.Drawing.Point(631, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(68, 29);
-            this.button6.TabIndex = 27;
-            this.button6.Text = "변환";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn6.Location = new System.Drawing.Point(758, 5);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(68, 29);
+            this.btn6.TabIndex = 27;
+            this.btn6.Text = "변환";
+            this.btn6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btn7
             // 
-            this.button7.Location = new System.Drawing.Point(631, 213);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(68, 29);
-            this.button7.TabIndex = 28;
-            this.button7.Text = "변환";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn7.Location = new System.Drawing.Point(758, 213);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(68, 29);
+            this.btn7.TabIndex = 28;
+            this.btn7.Text = "변환";
+            this.btn7.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 456);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.ClientSize = new System.Drawing.Size(839, 456);
+            this.Controls.Add(this.btn7);
+            this.Controls.Add(this.btn6);
+            this.Controls.Add(this.tboxQuery);
+            this.Controls.Add(this.tboxEscape);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
+            this.Controls.Add(this.lboxStringinterpolation);
+            this.Controls.Add(this.lboxStringFormat);
+            this.Controls.Add(this.tboxMono);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.num2);
+            this.Controls.Add(this.num1);
+            this.Controls.Add(this.dtPicker);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tboxIs2);
+            this.Controls.Add(this.tboxIs1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -345,8 +350,8 @@ namespace Escape_sequence
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.num2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,28 +366,28 @@ namespace Escape_sequence
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tboxIs1;
+        private System.Windows.Forms.TextBox tboxIs2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.DateTimePicker dtPicker;
+        private System.Windows.Forms.NumericUpDown num1;
+        private System.Windows.Forms.NumericUpDown num2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox tboxMono;
+        private System.Windows.Forms.ListBox lboxStringFormat;
+        private System.Windows.Forms.ListBox lboxStringinterpolation;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox tboxEscape;
+        private System.Windows.Forms.TextBox tboxQuery;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn7;
     }
 }
 

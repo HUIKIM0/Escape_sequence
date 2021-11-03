@@ -96,7 +96,7 @@ namespace Escape_sequence
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(149, 15);
             this.label4.TabIndex = 3;
-            this.label4.Text = "4. 보간문자 사용 : {}";
+            this.label4.Text = "4. 보관문자 사용 : {}";
             // 
             // label5
             // 
@@ -304,6 +304,7 @@ namespace Escape_sequence
             this.btn6.TabIndex = 27;
             this.btn6.Text = "변환";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn7
             // 
@@ -313,6 +314,7 @@ namespace Escape_sequence
             this.btn7.TabIndex = 28;
             this.btn7.Text = "변환";
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // Form1
             // 

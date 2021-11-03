@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace Escape_sequence
 {
+    // $ {변수명} 으로 작업 가능하게 하는 거 
+    // @ 이스케이프 시퀀스 안 써줘도 같은 기능 사용 가능하게 하는 거
     public partial class Form1 : Form
     {
         public Form1()
@@ -55,9 +57,13 @@ namespace Escape_sequence
 
 
         // 4. 보간 문자 사용 {}
+        //  {{{변수명}}} 하면 변수에 담겨있는 내용이 출력된다
         private void btn4_Click(object sender, EventArgs e)
         {
+            string strValue = "str";
 
+            lboxStringFormat.Items.Add(string.Format("{{{0}}}",strValue));    //str
+            lboxStringinterpolation.Items.Add($"{{{strValue}}}");       //str
         }
 
 
@@ -65,7 +71,47 @@ namespace Escape_sequence
         // 5. 단항식 사용
         private void btn5_Click(object sender, EventArgs e)
         {
+            string strValue = tboxMono.Text;
 
+            lboxStringFormat.Items.Add(string.Format("대문자 변환 {0}",strValue.ToUpper()));
+            lboxStringinterpolation.Items.Add($"대문자 변환 {strValue.ToUpper()}");
+        }
+
+
+        // 6. 이스케이프 시퀀스(@)
+        // \\ \r \n 같은 이스케이프 시퀀스 기능을 사용하고 싶을 때 @를 앞에 붙이면 이스케이프 시퀀스를 안적어줘도 적용 된다 
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            string strValue1 = "C\\User\\C#\\Escape_Sequence \r\n이스케이프 시퀀스 사용";
+            string strValue2 = @"C\User\C\Escapte_Sequence
+@로 사용";
+
+            tboxEscape.Text = strValue1 + "\r\n\r\n" + strValue2;
+        }
+
+
+        // 7. 쿼리 표현식 ($@ 함께 사용)
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            string strQuery1 = "Test1";
+            string strQuery2 = "Test2";
+
+
+            /*   ""과 +를 너무 자주 써야하는 기존 방식 
+            string Query1 = "Select " +
+                            "From " +
+                            "Where ";
+            */
+
+
+            string Query2 = $@"Select 
+    Row1,Row2
+ From
+    DBTable
+Where
+    Row1 = {strQuery1}, Row2={strQuery2}";
+
+            tboxQuery.Text = Query2;
         }
     }
 }
